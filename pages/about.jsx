@@ -53,8 +53,8 @@ const About = () => {
                   </p>
                   <div className="ceo">
                     <div>
-                      <img alt="img" src="assets/img/signature.png" />
-                      <span>CEO, John Doe</span>
+                   
+                      <span>CEO, Elisaul Batista</span>
                     </div>
                     <a href="team.html" className="themebtu">
                       Meet The Team
