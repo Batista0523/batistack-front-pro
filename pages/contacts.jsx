@@ -47,21 +47,21 @@ const Contacts = () => {
                 <li>
                   <h4>Address : </h4>
                   <span>
-                    418 Orange Street
+                    2010 Seagirt Blvd
                     <br />
-                    Portsmouth, VA 23703
+                    Queens New York 11691
                   </span>
                 </li>
                 <li>
                   <h4>Phone :</h4>
-                  <a href="callto:0987123456678">
-                    <span>0987 123 456 678</span>
+                  <a href="callto:9297331600">
+                    <span>929-733-1600</span>
                   </a>
                 </li>
                 <li>
                   <h4>Email :</h4>
-                  <a href="mailto:contact@terio.com">
-                    <span>contact@terio.com</span>
+                  <a href="mailto:elisaulbatista@pursuit.org">
+                    <span>elisaulbatista@pursuit.org</span>
                   </a>
                 </li>
                 <li>
@@ -135,7 +135,7 @@ const Contacts = () => {
                         <i className="fa-solid fa-user" />
                         <h5>New York</h5>
                         <p>
-                          92 Greenwich St, New York, NY 10006, United States
+                         2010 Seagirt Blvd
                         </p>
                         <a href="#">view map</a>
                       </div>

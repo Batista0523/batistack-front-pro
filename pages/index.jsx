@@ -45,7 +45,9 @@ const Index = () => {
                   </svg>
                   <div>
                     <a href="services.html">Research And Discovery</a>
-                    <span>Morbi interdum mollis sapien.</span>
+                    <span>
+                      In-depth research and discovery to inform your projects.
+                    </span>
                   </div>
                 </div>
               </div>
@@ -65,7 +67,9 @@ const Index = () => {
                   </svg>
                   <div>
                     <a href="services.html">Planning For The Future</a>
-                    <span>Phasellus lacinia, ullamcorper laoreet.</span>
+                    <span>
+                      Strategic planning to ensure your long-term success.
+                    </span>
                   </div>
                 </div>
               </div>
@@ -112,7 +116,9 @@ const Index = () => {
                   </svg>
                   <div>
                     <a href="services.html">Building Your Brand</a>
-                    <span>Pulvinar risus, vitae facilisis dolor.</span>
+                    <span>
+                      We help you create a strong and impactful brand presence.
+                    </span>
                   </div>
                 </div>
               </div>
@@ -378,25 +384,27 @@ const Index = () => {
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-1.jpg" />
+                  <img alt="man" src="assets/img/faceback3.png" />
                   <p>
-                    “Morbi in sem quis dui placerat ornare. Pellentesque odio
-                    nisi, euismod in, pharetra a, ultricies in, diam.”
+                    "Working with this team was a game-changer. Their expertise
+                    and attention to detail transformed our project beyond our
+                    expectations."
                   </p>
                   <div className="boder" />
                   <span>
                     Kalem Patel
                     <br />
-                    Manager of Terio
+                    Manager of TechSphere Innovations
                   </span>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-2.jpg" />
+                  <img alt="man" src="assets/img/faceback4.png" />
                   <p>
-                    “Praesent dapibus, neque id cursus faucibus, tortor neque
-                    egestas auguae, eu vulputate magna eros eu erat.”
+                    "The team at TechSphere Innovations delivered exceptional
+                    results. Their strategic approach and innovative solutions
+                    greatly enhanced our business operations."
                   </p>
                   <div className="boder" />
                   <span>
@@ -408,10 +416,11 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-3.jpg" />
+                  <img alt="man" src="assets/img/faceback1.png" />
                   <p>
-                    “Quisque a lectus. Donec consectetuer ligula vulputate sem
-                    tristique cursus. Nam nulla quam, gravida non, commodo a.”
+                    "TechSphere Innovations provided outstanding service. Their
+                    professionalism and commitment to excellence made a
+                    significant impact on our project."
                   </p>
                   <div className="boder" />
                   <span>
@@ -423,17 +432,17 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-4.jpg" />
+                  <img alt="man" src="assets/img/faceback.png" />
                   <p>
-                    “Morbi in sem quis dui placerat ornare. Pellentesque odio
-                    nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
-                    Cras consequat.”
+                    "TechSphere Innovations exceeded our expectations with their
+                    remarkable attention to detail. Their innovative solutions
+                    and dedicated team truly set them apart."
                   </p>
                   <div className="boder" />
                   <span>
-                    Kalem Patel
+                    Tim Jhonson
                     <br />
-                    Manager of Terio
+                    Manager of TScA
                   </span>
                 </div>
               </SwiperSlide>

@@ -2,6 +2,12 @@ import Preloader from "@/src/layout/Preloader";
 import "@/styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
+
+
+
+
+
+
 const App = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
@@ -13,7 +19,7 @@ const App = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
-        <link rel="icon" href="assets/img/logo-icon.png" />
+        <link rel="icon" href="assets/img/background-batistack.png" />
         {/* CSS only */}
         <link
           rel="stylesheet"
