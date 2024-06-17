@@ -30,7 +30,16 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                       homepage 
                     </Link>
                   </li>
-           
+                  <li>
+                    <Link legacyBehavior href="index-2">
+                      homepage 2
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="index-3">
+                      homepage 3
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li>

@@ -7,7 +7,10 @@ const Index = () => {
     <Layout noHeaderBg pageName={"Home"}>
       <section
         className="hero-section-one"
-        style={{ backgroundImage: "url(assets/img/background-batistack.png)", height: "20rem" }}
+        style={{
+          backgroundImage: "url(assets/img/background-batistack.png)",
+          height: "20rem",
+        }}
       >
         {/* <div className="container">
           <div className="heading-boder">
@@ -127,11 +130,11 @@ const Index = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="welcome">
-                <img alt="img" src="assets/img/welcome-1.jpg" />
+                <img alt="img" src="assets/img/bacdkmeeting.png" />
                 <img
                   alt="img"
                   className="img-welcome"
-                  src="assets/img/welcome-2.jpg"
+                  src="assets/img/backhome.png"
                 />
                 <img alt="dots" className="dots" src="assets/img/dots.png" />
               </div>
@@ -139,28 +142,42 @@ const Index = () => {
             <div className="col-xl-6 pl-75">
               <div className="heading design-enjoy">
                 <h6>Dream. Design. Enjoy.</h6>
-                <h2> We're an Independent Design &amp; Development Agency.</h2>
+                <h2> We're an Independent Design &amp; Development Company.</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               </div>
               <div className="welcome-text">
                 <h6 className="pt-4 pb-5">
-                  Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                  nisi neque, aliquet vel dapibusid, mattis velnisi.
+                  Welcome to Batistack Development. We specialize in creating
+                  innovative and high-performance web applications using the
+                  latest technologies.
                 </h6>
-                <h5>User Experience</h5>
+                <h5>Technologies We Use</h5>
                 <p>
-                  Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia,
-                  magna a ullamcorper laoreet, lectus arcu pulvinar facilisis.{" "}
+                  Our expertise includes HTML/CSS JavaScript, React, Next.js,
+                  Node.js , Express, PostgreSQL, HTML, and CSS and much more. We
+                  combine these technologies to build robust, scalable, and
+                  user-friendly applications tailored to your needs.
                 </p>
-                <h5>Digital Design</h5>
+                <h5>Our Approach</h5>
                 <p>
-                  Sed ac risus. Donec nec justo eget felis facilisis fermentum.
-                  Aliquam porttitor mauris sit amet orci. Aenean dignissim
-                  pellentesque felis.
+                  We believe in a user-centric design approach, ensuring that
+                  each project not only meets technical specifications but also
+                  provides an exceptional user experience. Our design and
+                  development processes are streamlined to deliver high-quality
+                  products efficiently.
                 </p>
-                <a href="services.html" className="themebtu">
+                <h5>Our Services</h5>
+                <p>
+                  From front-end to back-end development, we offer a
+                  comprehensive range of services to meet your business
+                  objectives. Whether it's a dynamic website, an e-commerce
+                  platform, or a custom web application, our team is equipped to
+                  handle projects of any complexity.
+                </p>
+
+                {/* here i need to enter services LINK <a href="services.html" className="themebtu">
                   More Services
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -170,43 +187,47 @@ const Index = () => {
       <section className="how-it-works gap no-top">
         <div className="container">
           <div className="heading">
-            <h6>How It Works?</h6>
-            <h2> We Are Strategic- Creative Digital Agency.</h2>
+            <h6>How It Works</h6>
+            <h2> We Are a Strategic and Creative Digital Agency.</h2>
             <img alt="line" src="assets/img/headingline.png" />
           </div>
           <div className="row pt-4">
             <div className="col-xl-4 col-lg-6">
               <div className="strategic">
-                <h2>O1/</h2>
+                <h2>01/</h2>
                 <div className="pl-80">
                   <h4>Submit Your Design Request</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna.
+                    Begin by submitting your design request through our
+                    intuitive platform. Provide us with your requirements and
+                    vision, and our team will take it from there.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
               <div className="strategic">
-                <h2>O2/</h2>
+                <h2>02/</h2>
                 <div className="pl-80">
-                  <h4>We Start Workin</h4>
+                  <h4>We Start Working</h4>
                   <p>
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                    nisi neque, aliquet vel, dapibus id, mattis vel, nisi.{" "}
+                    Our team of experts will start working on your project,
+                    ensuring to adhere to your specifications and deliver
+                    high-quality results. We keep you updated throughout the
+                    process.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
               <div className="strategic">
-                <h2>O3/</h2>
+                <h2>03/</h2>
                 <div className="pl-80">
-                  <h4>Get Your Projects Done! </h4>
+                  <h4>Get Your Projects Done!</h4>
                   <p>
-                    In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.
-                    Sed pretium, ligula sollicitudin laoreet viverra.
+                    Receive your completed project on time, ready to be
+                    implemented. We ensure that the final deliverables meet your
+                    expectations and help your business succeed.
                   </p>
                 </div>
               </div>
