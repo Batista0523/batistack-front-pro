@@ -492,11 +492,14 @@ const Index = () => {
         <div className="container">
           <div className="heading-boder two">
             <h2>
-              Let’s Start On Your Case <span>Together</span>
+              Let's Work On Your Case <span>Together</span>
             </h2>
-            <p>Pellentesque aliquet nibh necurna.</p>
+            <p>
+              Our team is ready to collaborate with you to find the best
+              solution for your case.
+            </p>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="offset-xl-1 col-xl-10">
               <div className="video-img">
                 <img className="w-100" alt="img" src="assets/img/video.jpg" />
@@ -525,7 +528,7 @@ const Index = () => {
                 <img alt="dots1" src="assets/img/shap-5.png" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="get-in-touch gap">
           <div className="container">
@@ -535,11 +538,12 @@ const Index = () => {
                   <div className="col-xl-6">
                     <div className="heading">
                       <h6>Get In Touch</h6>
-                      <h2> Kick Start Your Awesome Project Now!</h2>
+                      <h2> Start Your Next Project With Us Today!</h2>
                       <img alt="line" src="assets/img/headingline.png" />
                       <p>
-                        Sed egestas, ante et vulputate volutpat, eros pede
-                        semper est, vitae luctus metus libero eu augue.
+                        Contact us today to kick start your project. Our team is
+                        ready to collaborate with you to bring your ideas to
+                        life.
                       </p>
                     </div>
                   </div>
@@ -589,14 +593,14 @@ const Index = () => {
       </section>
       <section className="latest-blog gap">
         <div className="container">
-          <div className="heading">
+          {/* <div className="heading">
             <h6>our blog</h6>
             <h2>News and Thoughts</h2>
             <img alt="line" src="assets/img/headingline.png" />
-          </div>
+          </div> */}
           <Swiper {...latestswiper} className="swiper-container latestswiper">
             <div className="swiper-wrapper">
-              <SwiperSlide className="swiper-slide">
+              {/* <SwiperSlide className="swiper-slide">
                 <div className="latest-blog-post">
                   <a href="blog-single-post.html">
                     <img
@@ -742,7 +746,7 @@ const Index = () => {
                   </a>
                   <span>by Jane Luna | Digital Strategy</span>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </div>
             <div className="swiper-pagination" />
           </Swiper>

@@ -6,8 +6,9 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="footer-logo">
               <p>
-                Aliquam porttitor mauris sit amet orci. Aenean dignissim
-                pellentesque felis. Morbi in sem quis dui placerat ornare.
+                Our commitment to excellence ensures that your project is in
+                good hands. We strive to deliver the best results for your
+                business.
               </p>
             </div>
           </div>
@@ -35,17 +36,22 @@ const Footer = () => {
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="latest-news">
-              <h6>Latest news</h6>
+              <h6>Latest News</h6>
               <ul>
                 <li>
                   <p>
-                    Quisque volutpat mattis eros. Nullam malesuadarat ut turpis.
+                    Stay updated with our latest news and developments. Our team
+                    is committed to delivering exceptional results, tailored to
+                    your needs.
                   </p>
-                  <span>dec 10, 2019 / 0 comments</span>
+                  <span>dec 10, 2019 / 20 comments</span>
                 </li>
                 <li className="pt-4">
-                  <p>Aliquam porttitor mauris sit amet orci.</p>
-                  <span>dec 10, 2019 / 0 comments</span>
+                  <p>
+                    Our team is here to provide you with top-notch service.
+                    Contact us today to get started on your project.
+                  </p>
+                  <span>dec 10, 2019 / 10 comments</span>
                 </li>
               </ul>
             </div>
@@ -54,8 +60,9 @@ const Footer = () => {
             <div className="latest-news">
               <h6>Subscribe</h6>
               <p>
-                Pellentesque odio nisi, euismod in, pharetra a, ultricies in,
-                diam.
+                Stand out from the crowd with our innovative approach and
+                cutting-edge solutions. Our team is dedicated to helping your
+                business succeed in today's competitive market.
               </p>
               <form>
                 <input
@@ -69,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2023 Terio - All Rights Reserved | Developed by bslthemes</p>
+          <p>© 2021 Batistack - All Rights Reserved | Developed by Batistack</p>
           <ul>
             <li>
               <a href="#">
