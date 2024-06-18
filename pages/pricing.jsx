@@ -1,4 +1,5 @@
 import Layout from "@/src/layout/Layout";
+
 const Pricing = () => {
   return (
     <Layout noHeaderBg pageName={"Pricing"}>
@@ -33,38 +34,50 @@ const Pricing = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="Pricing-style">
                 <div className="standard">
-                  <h5>Standard</h5>
+                  <h5>Stater Package</h5>
                   <span>
-                    <sup>$</sup>299<sup>,99</sup>
+                    <sup>$</sup>499<sup>.99</sup>
                   </span>
                 </div>
                 <p>
-                  Inisi neque aliquet vel dapibus id, mattis velnisi. Sed
-                  pretiuligula sollicitudin.
+                  Get your online presence started with our Starter Package.
+                  Perfect for simple.
                 </p>
+                <br />
+                <h4>
+                  Technologies: <p>HTML/CSS</p>
+                </h4>
+                <h4>
+                  Monthly Maintance: <p>$19.99</p>
+                </h4>
                 <ul>
+                  <h4>Features:</h4>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Website builder
+                    Custom design
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    10 Autosave drafts/page
+                    Responsive layout
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Live chat24X7
+                    SEO optimization
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Limit 10 pages
+                    Basic contact form
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check" />
+                    Basic Support
                   </li>
                   <li className="pb-0">
                     <i className="fa-solid fa-check" />
-                    Support Customize
+                    Performance optimization
                   </li>
                 </ul>
-                <a href="#" className="themebtu">
+                <a href="/contacts" className="themebtu">
                   Get Started
                 </a>
               </div>
@@ -72,46 +85,42 @@ const Pricing = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="Pricing-style">
                 <div className="standard">
-                  <h5>Popular</h5>
+                  <h5>Profesional</h5>
                   <span>
-                    <sup>$</sup>599<sup>,99</sup>
+                    <sup>$</sup>799<sup>.99</sup>
                   </span>
                 </div>
                 <p>
-                  Aliquet vel dapibus id, mattis velnisi. Sed pretiuligula
-                  sollicitudin. Nullam mollis. Ut justo.{" "}
+                  Experience seamless interactivity and stunning visuals with
+                  our Professional Front-End Package. Tailored for dynamic,
+                  user-friendly interfaces, this package ensures your website
+                  stands out with cutting-edge design and functionality.
+                </p>
+                <br />
+                <h4>
+                  Technologies: <p>HTML/CSS , JavaScript , React</p>
+                </h4>
+                <h4>
+                  Monthly Maintance: <p>$49.99</p>
+                </h4>
+                <p>
+                  <strong>Starter Package Plus:</strong>
                 </p>
                 <ul>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Everything in Free plan
+                    Custom UI/UX design
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    10 Autosave drafts/page
+                    Component-based architecture
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Live chat24X7
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    Limit 10 pages
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    Support Customize
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    Limit 10 pages
-                  </li>
-                  <li className="pb-0">
-                    <i className="fa-solid fa-check" />
-                    Support Customize
+                    Performance optimization
                   </li>
                 </ul>
-                <a href="#" className="themebtu">
+                <a href="/contacts" className="themebtu">
                   Get Started
                 </a>
               </div>
@@ -121,52 +130,90 @@ const Pricing = () => {
                 <div className="standard">
                   <h5>Enterprise</h5>
                   <span>
-                    <sup>$</sup>899<sup>,99</sup>
+                    <sup>$</sup>2999<sup>.99</sup>
                   </span>
                 </div>
+
                 <p>
-                  Sed pretiuligula sollicitudin nullam mollis. Ut justo.
-                  Suspendisse potenti.
+                  Elevate your business with our Enterprise Full-Stack Solution.
+                  Tailored for scalability and robust performance, this package
+                  offers comprehensive features and dedicated support to meet
+                  the demands of large businesses. Benefit from advanced
+                  technologies and a proactive approach to ensure your digital
+                  infrastructure is always ahead.
+                </p>
+                <br />
+                <h4>
+                  Technologies:{" "}
+                  <p>
+                    HTML, CSS, JavaScript, React, Node.js, Express, PostgreSQL
+                  </p>
+                </h4>
+                <br />
+                <h4>
+                  Monthly Maintance: <p>Based on selected server tier</p>
+                </h4>
+                <li>
+                  <i className="fa-solid fa-check" />
+                  Basic Server: $19.99/month
+                </li>
+                <li>
+                  <i className="fa-solid fa-check" />
+                  Standard Server: $49.99/month
+                </li>
+
+                <li>
+                  <i className="fa-solid fa-check" />
+                  Enhanced Server: $79.99/month
+                </li>
+
+                <li>
+                  <i className="fa-solid fa-check" />
+                  Premium Server: $129.99/month
+                </li>
+                <br />
+                <p>
+                  <strong>Profesional Package Plus:</strong>
                 </p>
                 <ul>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Everything in Free plan
+                    RESTful API development
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    10 Autosave drafts/page
+                    Advanced security features
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Live chat24X7
+                    Real-time functionalities
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Limit 10 pages
+                    User authentication and authorization
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Support Customize
+                    Database design and integration
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    10 Autosave drafts/page
+                    CRUD operations
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Live chat24X7
+                    Scalability and load balancing
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Limit 10 pages
+                    Advanced analytics
                   </li>
                   <li className="pb-0">
                     <i className="fa-solid fa-check" />
-                    Support Customize
+                    Dedicated support
                   </li>
                 </ul>
-                <a href="#" className="themebtu">
+                <a href="/contacts" className="themebtu">
                   Get Started
                 </a>
               </div>
@@ -185,336 +232,131 @@ const Pricing = () => {
           </div>
         </div>
       </section>
-      <section className="gap">
-        <div className="container">
-          <div className="heading">
+      <section class="faq-section gap">
+        <div class="container">
+          <div class="section-heading">
             <h6>Have a Question?</h6>
             <h2>Frequently Asked Questions</h2>
-            <img alt="line" src="assets/img/headingline.png" />
+            <img alt="heading line" src="assets/img/headingline.png" />
           </div>
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="questions me-lg-4">
-                <h4>Popular questions</h4>
-                <div className="accordion">
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Aliquam tincidunt mauris eu risus?
-                      </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="faq-category">
+                <h4>Popular Questions</h4>
+                <div class="accordion" id="popular-questions">
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      What services do you offer?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        We offer full-stack development services including
+                        front-end technologies like HTML, CSS, JavaScript, and
+                        React, as well as back-end technologies such as Node.js,
+                        Express, and databases like PostgreSQL.
                       </p>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Vestibulum auctor dapibus neque?
-                      </div>
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      Do you provide ongoing maintenance?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        Yes, we offer monthly maintenance plans to ensure your
+                        applications remain secure, up-to-date, and optimized
+                        for performance.
                       </p>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Nunc dignissim risus id metus?
-                      </div>
+
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      Can I request custom features for my project?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        Absolutely! We provide customization services tailored
+                        to your specific needs, ensuring your project meets all
+                        requirements and expectations.
                       </p>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">Cras ornare tristique elit?</div>
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      How do I get started with your services?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Vivamus vestibulum ntulla nec ante?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        Getting started is easy! Simply contact us through our
+                        website or by phone, and our team will guide you through
+                        the process from consultation to project kickoff.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="questions">
+            <div class="col-lg-6">
+              <div class="faq-category">
                 <h4>Security and Privacy</h4>
-                <div className="accordion">
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Praesent placerat risus quis eros?
-                      </div>
+                <div class="accordion" id="security-privacy">
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      How do you ensure data security?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        We follow industry best practices for data security,
+                        including encryption, regular security audits, and
+                        access controls to protect your sensitive information.
                       </p>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Fusce pellentesque suscipit nibh?
-                      </div>
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      Is my data backed up regularly?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        Yes, we perform regular backups of your data to ensure
+                        data integrity and availability in case of unexpected
+                        events.
                       </p>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Integer vitae libero ac risus egestas placerat?
-                      </div>
+
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      How can I be assured of my privacy?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <br />
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        Your privacy is our priority. We adhere to strict
+                        confidentiality agreements and privacy policies to
+                        safeguard your personal and business information.
                       </p>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Vestibulum commodo felis quis tortor?
-                      </div>
+                  <div class="accordion-item">
+                    <a href="#" class="accordion-heading">
+                      Are your servers located in secure data centers?{" "}
+                      <span class="toggle-icon">+</span>
                     </a>
-                    <div className="content">
+                    <br />
+                    <div class="accordion-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="questions me-lg-4">
-                <h4>Popular questions</h4>
-                <div className="accordion">
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Nunc dignissim risus id metus?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">Cras ornare tristique elit?</div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Vivamus vestibulum ntulla nec ante?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="questions">
-                <h4>Other FAQs</h4>
-                <div className="accordion">
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Aliquam tincidunt mauris eu risus?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Vestibulum auctor dapibus neque?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Nunc dignissim risus id metus?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">Cras ornare tristique elit?</div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Vivamus vestibulum ntulla nec ante?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <a href="#" className="heading">
-                      <div className="icon" />
-                      <div className="title">
-                        Praesent placerat risus quis eros?
-                      </div>
-                    </a>
-                    <div className="content">
-                      <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.
-                        Nullam mollis. Ut justo. Suspendisse potenti.
-                        Sedegestas, antet vulputate volutpat, eros pede
-                        semperest.
+                        Yes, our servers are hosted in secure data centers with
+                        robust physical and digital security measures to protect
+                        against unauthorized access and breaches.
                       </p>
                     </div>
                   </div>

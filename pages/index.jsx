@@ -249,6 +249,8 @@ const Index = () => {
               <br />
               Completed<span>Projects</span>
             </h2>
+            <h5>Note: We prioritize client confidentiality and display only projects approved for public showcase.</h5>
+
             <p>We Help You Build An Online Brand</p>
           </div>
           <Swiper
@@ -258,22 +260,23 @@ const Index = () => {
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slide">
                 <div className="project-data">
-                  <a href="portfolio-single-v1.html">
+                  <a href="https://neon-dragon-3dc023.netlify.app/" target="_blank">
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/project-1.jpg"
+                      src="assets/img/courtiq-img.png"
                     />
                   </a>
                   <div className="project-text">
-                    <h5>Cosmetics Mockup Set Template</h5>
-                    <p>Quisque volutpat mattis eros.</p>
-                    <a href="portfolio-single-v1.html">View Project</a>
+                    <h5>CourtIQ</h5>
+                    <p>Are you an NBA 🏀⭐️🚀 fan who enjoys betting? This website is designed for you. Using advanced technology, CourtIQ helps users make informed decisions before placing their bets.</p>
+
+                    <a href="https://neon-dragon-3dc023.netlify.app/" target="_blank">View Project</a>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <div className="project-data">
+                {/* <div className="project-data">
                   <a href="portfolio-single-v1.html">
                     <img
                       alt="img"
@@ -286,10 +289,10 @@ const Index = () => {
                     <p>Lorem ipsum dolor sit amet, consectetuer donec odio.</p>
                     <a href="portfolio-single-v1.html">View Project</a>
                   </div>
-                </div>
+                </div> */}
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <div className="project-data">
+                {/* <div className="project-data">
                   <a href="portfolio-single-v1.html">
                     <img
                       alt="img"
@@ -302,10 +305,10 @@ const Index = () => {
                     <p>Quisque volutpat mattis eros.</p>
                     <a href="portfolio-single-v1.html">View Project</a>
                   </div>
-                </div>
+                </div> */}
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <div className="project-data">
+                {/* <div className="project-data">
                   <a href="portfolio-single-v1.html">
                     <img
                       alt="img"
@@ -318,7 +321,7 @@ const Index = () => {
                     <p>Quisque volutpat mattis eros.</p>
                     <a href="portfolio-single-v1.html">View Project</a>
                   </div>
-                </div>
+                </div> */}
               </SwiperSlide>
             </div>
             <div className="swiper-button-next">
@@ -402,7 +405,7 @@ const Index = () => {
                 <div className="reaview">
                   <img alt="man" src="assets/img/faceback4.png" />
                   <p>
-                    "The team at TechSphere Innovations delivered exceptional
+                    "The team at Batistack Development delivered exceptional
                     results. Their strategic approach and innovative solutions
                     greatly enhanced our business operations."
                   </p>
@@ -418,7 +421,7 @@ const Index = () => {
                 <div className="reaview">
                   <img alt="man" src="assets/img/faceback1.png" />
                   <p>
-                    "TechSphere Innovations provided outstanding service. Their
+                    "Batistack Developmentprovided outstanding service. Their
                     professionalism and commitment to excellence made a
                     significant impact on our project."
                   </p>
@@ -434,7 +437,7 @@ const Index = () => {
                 <div className="reaview">
                   <img alt="man" src="assets/img/faceback.png" />
                   <p>
-                    "TechSphere Innovations exceeded our expectations with their
+                    "Batistack Development exceeded our expectations with their
                     remarkable attention to detail. Their innovative solutions
                     and dedicated team truly set them apart."
                   </p>
