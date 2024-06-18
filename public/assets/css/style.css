@@ -225,6 +225,7 @@ header {
     width: 100%;
     padding-top: 10px;
     z-index: 1111;
+    font-size: 20px;
 }
 /* 3. hero-section-one */
 .hero-section-one {

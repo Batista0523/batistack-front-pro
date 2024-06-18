@@ -1,9 +1,24 @@
 import Link from "next/link";
 import { useState } from "react";
 import MobileHeader from "./MobileHeader";
+
+
+
+
+
+
+
+
+
+
+
 const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
   const [searchToggle, setSearchToggle] = useState(false);
   const [toggle, setToggle] = useState(false);
+
+
+
+  
   return (
     <header
       className={headerExtraClass ? headerExtraClass : ""}

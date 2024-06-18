@@ -135,13 +135,12 @@ const About = () => {
                       </g>
                     </svg>
                   </i>
-                  <h4>Creative Concepts &amp; Ideas</h4>
+                  <h4>Creative Concepts & Ideas</h4>
                   <p>
-                    From innovative designs to captivating campaigns, we
-                    specialize in crafting creative concepts that resonate. Our
-                    strategic approach ensures every idea is infused with
-                    impactful storytelling and artistic flair, helping your
-                    brand stand out.
+                    Transform your brand with innovative designs and captivating
+                    campaigns. We specialize in crafting creative concepts
+                    infused with impactful storytelling and artistic flair,
+                    ensuring your brand stands out.
                   </p>
                 </div>
               </div>
@@ -212,10 +211,9 @@ const About = () => {
                   <p>
                     Elevate your brand with a unique identity that captivates
                     and inspires. We specialize in creating memorable brand
-                    experiences that resonate with your audience. From strategic
-                    positioning to visual storytelling, we ensure every
-                    touchpoint reflects your brand's essence and vision, driving
-                    lasting connections and trust.
+                    experiences through strategic positioning and visual
+                    storytelling, ensuring every touchpoint reflects your
+                    brand's essence and vision.
                   </p>
                 </div>
               </div>
@@ -264,14 +262,14 @@ const About = () => {
                       </g>
                     </svg>
                   </i>
-                  <h4>UX &amp; UI Design &amp; Analysis</h4>
+                  <h4>UX & UI Design & Analysis</h4>
                   <p>
                     Elevate your digital experiences with expert UX and UI
                     design and analysis. We specialize in crafting intuitive
                     interfaces that resonate with your audience. Through
                     meticulous analysis and user-centric design principles, we
-                    ensure your digital presence is both engaging and effective.
-                    Let us help you create meaningful interactions that drive
+                    ensure your digital presence is engaging and effective. Let
+                    us help you create meaningful interactions that drive
                     results and enhance user satisfaction.
                   </p>
                 </div>
@@ -298,12 +296,12 @@ const About = () => {
                   <h4>Digital Advertising</h4>
                   <p>
                     Reach your audience effectively with targeted digital
-                    advertising strategies. We specialize in delivering
+                    advertising strategies. Specializing in delivering
                     compelling messages through strategic placement and
-                    innovative approaches. Our goal is to maximize your reach
-                    and engagement, driving tangible results for your business.
-                    Let us help you navigate the digital landscape and achieve
-                    your advertising goals efficiently.
+                    innovative approaches, we aim to maximize your reach and
+                    engagement, driving tangible results for your business. Let
+                    us help you navigate the digital landscape and achieve your
+                    advertising goals efficiently.
                   </p>
                 </div>
               </div>
