@@ -581,7 +581,7 @@ const Index = () => {
                           />
                         </div>
                         <div className="btugap">
-                          <a href="#" className="themebtu full">
+                          <a href="/contacts" className="themebtu full">
                             Send Message
                           </a>
                         </div>

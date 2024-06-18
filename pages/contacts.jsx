@@ -172,11 +172,13 @@ const Contact = () => {
           <div className="row">
             <div className="col-xl-4">
               <div className="heading">
-                <h2>Offices</h2>
+                <h2>Offices in New York</h2>
                 <p>
-                  Donec nec justo eget felis facilisis fermentum. Aliquam
-                  porttitor mauris sit amet orci. Aenean dignissim pellentesque
-                  felis.
+                  Our offices are strategically located in the heart of New York
+                  City, ensuring accessibility and convenience for our clients
+                  and partners. We pride ourselves on creating a welcoming
+                  environment where innovative ideas thrive and client
+                  relationships flourish.
                 </p>
               </div>
             </div>
@@ -203,7 +205,7 @@ const Contact = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+                  {/* <SwiperSlide className="swiper-slide">
                     <div className="view-map hoverstyle">
                       <figure>
                         <img
@@ -236,7 +238,7 @@ const Contact = () => {
                         <a href="#">view map</a>
                       </div>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </div>
                 <div className="swiper-pagination" />
               </Swiper>
