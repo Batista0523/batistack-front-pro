@@ -39,21 +39,17 @@ const About = () => {
               <div className="col-xl-5">
                 <div className="signature">
                   <p>
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                    nisi neque, aliquet vel dapibusid, mattis velnisi. Sed
-                    pretium, ligula sollicitudin laoreet viverra, tortor libero
-                    sodales leo, eget blandit nunc tortor eu nibh. <br />
-                    <br />
-                    Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas,
-                    ante et vulputate volutpat, eros pede semper est, vitae
-                    luctus metus libero eu augue. Morbi purus libero, faucibus
-                    adipiscing, commodo quis, gravida id, est. Sed lectus.
-                    Praesent elementum hendrerit tortor. Sed semper lorem at
-                    felis.{" "}
+                    Welcome to our company! We specialize in delivering
+                    exceptional services tailored to meet your needs. Our team
+                    is dedicated to providing innovative solutions that drive
+                    your success. With a commitment to excellence and customer
+                    satisfaction, we strive to exceed your expectations every
+                    step of the way. Discover how we can help you achieve your
+                    goals today.
                   </p>
+
                   <div className="ceo">
                     <div>
-                   
                       <span>CEO, Elisaul Batista</span>
                     </div>
                     <a href="team.html" className="themebtu">
@@ -67,7 +63,7 @@ const About = () => {
         </section>
         <div className="hoverstyle">
           <figure>
-            <img alt="img" className="w-100" src="assets/img/about.jpg" />
+            <img alt="img" className="w-100" src="assets/img/aboutback.png" />
           </figure>
         </div>
         <section
@@ -112,9 +108,13 @@ const About = () => {
                   </i>
                   <h4>Performance Marketing</h4>
                   <p>
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                    nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed
-                    pretium, ligula sollicitudin.
+                    Welcome to our Performance Marketing services. We specialize
+                    in optimizing your digital presence for maximum reach and
+                    impact. Our tailored strategies ensure your message
+                    resonates, driving engagement and conversions. With a focus
+                    on innovation and data-driven insights, we empower your
+                    business to achieve measurable growth and success in the
+                    digital landscape.
                   </p>
                 </div>
               </div>
@@ -137,9 +137,11 @@ const About = () => {
                   </i>
                   <h4>Creative Concepts &amp; Ideas</h4>
                   <p>
-                    In nisi neque, aliquet vel, dapibus id, mattisvel, nisi. Sed
-                    pretium, ligula sollicitudin laoreet viverra, tortor libero
-                    sodales leo, eget .
+                    From innovative designs to captivating campaigns, we
+                    specialize in crafting creative concepts that resonate. Our
+                    strategic approach ensures every idea is infused with
+                    impactful storytelling and artistic flair, helping your
+                    brand stand out.
                   </p>
                 </div>
               </div>
@@ -208,8 +210,12 @@ const About = () => {
                   </i>
                   <h4>Branding</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna.
+                    Elevate your brand with a unique identity that captivates
+                    and inspires. We specialize in creating memorable brand
+                    experiences that resonate with your audience. From strategic
+                    positioning to visual storytelling, we ensure every
+                    touchpoint reflects your brand's essence and vision, driving
+                    lasting connections and trust.
                   </p>
                 </div>
               </div>
@@ -232,9 +238,13 @@ const About = () => {
                   </i>
                   <h4>Ecommerce</h4>
                   <p>
-                    Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                    libero sodales leo, eget blandit nunc tortor eunibh. Nullam
-                    mollis. Ut justo.
+                    Drive your online success with strategic ecommerce
+                    solutions. We specialize in optimizing your digital store
+                    for maximum efficiency and customer engagement. From
+                    seamless user experiences to robust backend management, we
+                    empower your ecommerce venture to thrive in a competitive
+                    market. Let us help you achieve your sales goals with
+                    innovative strategies and reliable support.
                   </p>
                 </div>
               </div>
@@ -256,9 +266,13 @@ const About = () => {
                   </i>
                   <h4>UX &amp; UI Design &amp; Analysis</h4>
                   <p>
-                    Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
-                    vel, dapibus id, mattis velnisi. Sed pretium, ligula
-                    sollicitudin laoreet viverra.
+                    Elevate your digital experiences with expert UX and UI
+                    design and analysis. We specialize in crafting intuitive
+                    interfaces that resonate with your audience. Through
+                    meticulous analysis and user-centric design principles, we
+                    ensure your digital presence is both engaging and effective.
+                    Let us help you create meaningful interactions that drive
+                    results and enhance user satisfaction.
                   </p>
                 </div>
               </div>
@@ -283,9 +297,13 @@ const About = () => {
                   </i>
                   <h4>Digital Advertising</h4>
                   <p>
-                    Dapibus id, mattis vel, nisi. Sed pretium, ligula
-                    sollicitudin laoreet viverra, tortor libero sodales leo,
-                    eget blandit nunc tortor eu nibh.
+                    Reach your audience effectively with targeted digital
+                    advertising strategies. We specialize in delivering
+                    compelling messages through strategic placement and
+                    innovative approaches. Our goal is to maximize your reach
+                    and engagement, driving tangible results for your business.
+                    Let us help you navigate the digital landscape and achieve
+                    your advertising goals efficiently.
                   </p>
                 </div>
               </div>
@@ -345,9 +363,13 @@ const About = () => {
                 <div className="heading">
                   <h2>Satisfied Clients</h2>
                   <p>
-                    Donec nec justo eget felis facilisis fermentum. Aliquam
-                    porttitor mauris sit amet orci. Aenean dignissim
-                    pellentesque felis.
+                    Attracting and retaining happy clients is our top priority.
+                    We strive to exceed expectations by delivering exceptional
+                    service and innovative solutions. Our commitment to client
+                    satisfaction drives everything we do, ensuring long-lasting
+                    partnerships built on trust and results. Discover why our
+                    clients rave about our personalized approach and dedication
+                    to their success.
                   </p>
                 </div>
               </div>
@@ -364,10 +386,10 @@ const About = () => {
                           <h4>A multi-disciplinary team of creators ...</h4>
                         </a>
                         <p>
-                          " Suspendisse potenti. Sed egestas, ante etvulputate
-                          volutpat, eros pede semper est, vitae luctus metus
-                          libero eu augue. “
+                          "We harness diverse talents to innovate solutions that
+                          captivate and inspire."
                         </p>
+
                         <span>Milly Carson (Designer)</span>
                       </div>
                     </SwiperSlide>
@@ -378,10 +400,10 @@ const About = () => {
                           <h4>Best marketing ...</h4>
                         </a>
                         <p>
-                          "Vestibulum volutpat, lacus a ultrices sagittis, mi
-                          neque euismod dui, eu pulvinar nunc sapien ornare
-                          nisl. Phasellus pede arcu, dapibus eu.”
+                          "Our approach combines strategic insights with
+                          creative finesse to amplify your brand's impact."
                         </p>
+
                         <span>Caspar Galloway (Product Manager)</span>
                       </div>
                     </SwiperSlide>
@@ -392,9 +414,10 @@ const About = () => {
                           <h4>Best marketing ...</h4>
                         </a>
                         <p>
-                          " Donec nec justo eget felis facilisis fermentum.
-                          Aliquam porttitor mauris sit amet orci. “
+                          "We deliver tailored marketing solutions that resonate
+                          with your audience and drive results."
                         </p>
+
                         <span>Quentin (Content Specialist)</span>
                       </div>
                     </SwiperSlide>
