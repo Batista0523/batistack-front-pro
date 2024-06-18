@@ -1,7 +1,50 @@
+import React, { useState } from "react";
 import Layout from "@/src/layout/Layout";
-import { studiesswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-const Contacts = () => {
+import { addItem } from "@/src/helpers/apiCall";
+import { studiesswiper } from "@/src/sliderProps";
+
+const Contact = () => {
+  const endpoint = "contact";
+
+  const [formData, setFormData] = useState({
+    username: "",
+    email: "",
+    msg: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const { username, email, msg } = formData;
+
+    try {
+      await addItem(endpoint, {
+        username,
+        email,
+        msg,
+      });
+
+      setFormData({
+        username: "",
+        email: "",
+        msg: "",
+      });
+
+      alert("🚀 🎉 Message sent successfully 🥳✨🚀");
+    } catch (error) {
+      console.error("Error sending message:", error);
+      alert("Failed to send message. Please try again later.");
+    }
+  };
+
   return (
     <Layout noHeaderBg pageName={"Contact"}>
       <section
@@ -24,28 +67,49 @@ const Contacts = () => {
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6">
-              <form className="content-form">
+              <form className="content-form" onSubmit={handleSubmit}>
                 <div className="row">
-                  <div className="col-lg-6">
-                    <input type="text" name="name" placeholder="Your Name *" />
-                  </div>
                   <div className="col-lg-6">
                     <input
                       type="text"
-                      name="name"
-                      placeholder="Your Company *"
+                      name="username"
+                      placeholder="Your Name *"
+                      value={formData.username}
+                      onChange={handleChange}
                     />
                   </div>
+                  {/* <div className="col-lg-6">
+                    <input
+                      type="text"
+                      name="company"
+                      placeholder="Your Company *"
+                      value={formData.company}
+                      onChange={handleChange}
+                    />
+                  </div> */}
                 </div>
-                <input type="text" name="name" placeholder="Your Email *" />
-                <textarea placeholder="Your Message *" defaultValue={""} />
-                <button className="themebtu">Submit</button>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email *"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
+                <textarea
+                  name="msg"
+                  placeholder="Your Message *"
+                  value={formData.msg}
+                  onChange={handleChange}
+                />
+                <button type="submit" className="themebtu">
+                  Submit
+                </button>
               </form>
             </div>
             <div className="offset-lg-1 col-xl-5 col-lg-5">
               <ul className="sidebar">
                 <li>
-                  <h4>Address : </h4>
+                  <h4>Address :</h4>
                   <span>
                     2010 Seagirt Blvd
                     <br />
@@ -54,7 +118,7 @@ const Contacts = () => {
                 </li>
                 <li>
                   <h4>Phone :</h4>
-                  <a href="callto:9297331600">
+                  <a href="tel:9297331600">
                     <span>929-733-1600</span>
                   </a>
                 </li>
@@ -134,9 +198,7 @@ const Contacts = () => {
                       <div className="view-map-data">
                         <i className="fa-solid fa-user" />
                         <h5>New York</h5>
-                        <p>
-                         2010 Seagirt Blvd
-                        </p>
+                        <p>2010 Seagirt Blvd</p>
                         <a href="#">view map</a>
                       </div>
                     </div>
@@ -196,4 +258,5 @@ const Contacts = () => {
     </Layout>
   );
 };
-export default Contacts;
+
+export default Contact;

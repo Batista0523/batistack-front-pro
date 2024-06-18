@@ -14,7 +14,7 @@ const MobileHeader = ({ toggle, close }) => {
       <ul>
         <li className={`menu-item-has-children ${activeSubMenu("home")}`}>
           <a href="JavaScript:void(0)" onClick={() => active("home")}>
-            Home
+            Batistack
           </a>
           <ul className="sub-menu">
             <li>
