@@ -119,6 +119,10 @@ h5{
     line-height: 32px;
     color: #222;
 }
+.toggle-button{
+    height: fit-content;
+    background-color: #0049ff;
+}
 h6{
     font-size: 20px;
     line-height: 28px;

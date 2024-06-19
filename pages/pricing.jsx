@@ -1,6 +1,12 @@
 import Layout from "@/src/layout/Layout";
-
+import { useState } from "react";
 const Pricing = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <Layout noHeaderBg pageName={"Pricing"}>
       <section
@@ -306,17 +312,28 @@ const Pricing = () => {
                 <h4>Security and Privacy</h4>
                 <div class="accordion" id="security-privacy">
                   <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                    <h6 className="accordion-heading">
                       How do you ensure data security?{" "}
                       <span class="toggle-icon">+</span>
-                    </a>
-                    <div class="accordion-content">
-                      <p>
-                        We follow industry best practices for data security,
-                        including encryption, regular security audits, and
-                        access controls to protect your sensitive information.
-                      </p>
-                    </div>
+                    </h6>
+                    <button
+                      className="toggle-button"
+                      onClick={toggleExpansion}
+                      aria-label={isExpanded ? "Collapse" : "Expand"}
+                    >
+                      {isExpanded ? "➖" : "➕"}
+                    </button>
+                    {isExpanded && (
+                      <div>
+                        {" "}
+                        <p>
+                          We follow industry best practices for data security,
+                          including encryption, regular security audits, and
+                          access controls to protect your sensitive information.
+                        </p>
+                        <div class="accordion-content"></div>
+                      </div>
+                    )}
                   </div>
                   <div class="accordion-item">
                     <a href="#" class="accordion-heading">
