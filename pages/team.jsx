@@ -35,12 +35,13 @@ const Team = () => {
             <div className="offset-xl-1 col-xl-5">
               <div className="team-welcome-text">
                 <p>
-                  Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                  libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
-                  mollis. Ut justo. Suspendisse potenti. Sedegestas, antet
-                  vulputate volutpat, eros pede semperest.
+                  Welcome to our team! We thrive on crafting innovative
+                  solutions that captivate and inspire. With a focus on
+                  excellence, we're dedicated to delivering results that exceed
+                  expectations. Join us in shaping the future of creative
+                  collaboration.
                 </p>
-                <a href="contacts.html" className="themebtu">
+                <a href="/contacts" className="themebtu">
                   Contact Us
                 </a>
               </div>
@@ -49,12 +50,12 @@ const Team = () => {
           <div className="row mt-5">
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-1.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback6.png" />
                 <div className="team-member-text">
                   <a href="#">
                     <h6>Klay Carson</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>Project Manager</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">
@@ -82,12 +83,12 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-2.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback7.png" />
                 <div className="team-member-text">
                   <a href="#">
                     <h6>Naomi Norman</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>Human Resources Manager</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">
@@ -115,12 +116,12 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-3.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback5.png" />
                 <div className="team-member-text">
                   <a href="#">
                     <h6>Bert Graham</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>Senior Developer</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">
@@ -148,12 +149,12 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-4.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback4.png" />
                 <div className="team-member-text">
                   <a href="#">
-                    <h6>Bert Graham</h6>
+                    <h6>Robert Itzchu</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>Quality Assurance Engineer</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">
@@ -181,12 +182,12 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-5.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback1.png" />
                 <div className="team-member-text">
                   <a href="#">
                     <h6>Hebe Munro</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>UI/UX Designer</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">
@@ -214,12 +215,12 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-6.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback.png" />
                 <div className="team-member-text">
                   <a href="#">
-                    <h6>Angelika Sweet</h6>
+                    <h6>Robert Timso</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>Marketing Specialist</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">
@@ -247,12 +248,12 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/team-7.jpg" />
+                <img className="w-100" alt="img" src="assets/img/servicesback2.png" />
                 <div className="team-member-text">
                   <a href="#">
                     <h6>Alicia York</h6>
                   </a>
-                  <p>Product Manager</p>
+                  <p>Chief Technology Officer (CTO)</p>
                   <ul className="brandicon">
                     <li>
                       <a href="#">

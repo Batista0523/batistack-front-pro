@@ -6,7 +6,7 @@ const TerioCounter = () => {
       <div className="col-lg-3 col-md-4 col-sm-6">
         <div className="counter-text">
           <div className="d-flex align-items-center justify-content-center">
-            <Counter end={12000} />
+            <Counter end={10090} />
             <h6>+</h6>
           </div>
           <div className="boder" />
@@ -26,7 +26,7 @@ const TerioCounter = () => {
       <div className="col-lg-3 col-md-4 col-sm-6">
         <div className="counter-text">
           <div className="d-flex align-items-center justify-content-center">
-            <Counter end={9} />
+            <Counter end={5} />
             <h6>+</h6>
           </div>
           <div className="boder" />
