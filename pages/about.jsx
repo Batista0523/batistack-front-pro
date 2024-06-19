@@ -16,8 +16,8 @@ const About = () => {
                 We Love
                 <br />
                 What We Do
+              <p>About Us</p>
               </h2>
-              <a href="#">About Us</a>
             </div>
           </div>
         </section>

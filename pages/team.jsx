@@ -13,7 +13,7 @@ const Team = () => {
               We Know Why
               <br /> You're Here
             </h2>
-            <a href="#">Meet The Team</a>
+            <p>Meet The Team</p>
           </div>
         </div>
       </section>
@@ -50,13 +50,16 @@ const Team = () => {
           <div className="row mt-5">
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback6.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback6.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Klay Carson</h6>
-                  </a>
+                  <h6>Klay Carson</h6>
+
                   <p>Project Manager</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -77,19 +80,22 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback7.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback7.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Naomi Norman</h6>
-                  </a>
+                  <h6>Naomi Norman</h6>
+
                   <p>Human Resources Manager</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -110,19 +116,22 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback5.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback5.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Bert Graham</h6>
-                  </a>
+                  <h6>Bert Graham</h6>
+
                   <p>Senior Developer</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -143,19 +152,22 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback4.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback4.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Robert Itzchu</h6>
-                  </a>
+                  <h6>Robert Itzchu</h6>
+
                   <p>Quality Assurance Engineer</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -176,19 +188,22 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback1.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback1.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Hebe Munro</h6>
-                  </a>
+                  <h6>Hebe Munro</h6>
+
                   <p>UI/UX Designer</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -209,19 +224,22 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Robert Timso</h6>
-                  </a>
+                  <h6>Robert Timso</h6>
+
                   <p>Marketing Specialist</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -242,19 +260,22 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member">
-                <img className="w-100" alt="img" src="assets/img/servicesback2.png" />
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="assets/img/servicesback2.png"
+                />
                 <div className="team-member-text">
-                  <a href="#">
-                    <h6>Alicia York</h6>
-                  </a>
+                  <h6>Alicia York</h6>
+
                   <p>Chief Technology Officer (CTO)</p>
-                  <ul className="brandicon">
+                  {/* <ul className="brandicon">
                     <li>
                       <a href="#">
                         <i className="fa-brands fa-facebook-f" />
@@ -275,14 +296,14 @@ const Team = () => {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="join-our-team">
                 <div>
-                  <a href="#">
+                  <a href="/contacts">
                     <h5>Join Our Team</h5>
                   </a>
                   <span>Careers</span>

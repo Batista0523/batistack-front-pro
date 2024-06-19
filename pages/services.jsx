@@ -13,7 +13,7 @@ const Services = () => {
               We Solve
               <br /> Business Problems
             </h2>
-            <a href="#">Services</a>
+            <p>Services</p>
           </div>
         </div>
       </section>
@@ -25,16 +25,22 @@ const Services = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="heading">
-                <h6>Designed to Grow Your Business</h6>
-                <h2> Sales Strategy and Conversion Optimization</h2>
-                <img alt="line" src="assets/img/headingline.png" />
+                Batistack Development Corp:
+                <h6>Empowering Your Business with Cutting-Edge Solutions</h6>
+                <h2>
+                  Full-Stack Software Engineering and Conversion Optimization
+                </h2>
+                <img alt="decorative line" src="assets/img/headingline.png" />
                 <p>
-                  Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel
-                  dapibusid, mattis velnisi. Sed pretium, ligula sollicitudin
-                  laoreet viverra, tortor libero sodales leo, eget blandit nunc
-                  tortor eu nibh.
+                  At Batistack Development Corp, we specialize in delivering
+                  comprehensive full-stack software engineering services
+                  designed to accelerate your business growth. Our strategic
+                  approach to sales and conversion optimization ensures enhanced
+                  user engagement and maximized conversion rates. Partner with
+                  us to leverage innovative technology solutions that elevate
+                  your business and drive exceptional results.
                 </p>
-                <a href="#" className="themebtu">
+                <a href="/portfolio-grid" className="themebtu">
                   View Portfolio
                 </a>
               </div>
@@ -45,7 +51,7 @@ const Services = () => {
                   <img
                     className="w-100"
                     alt="discovery"
-                    src="assets/img/discovery.jpg"
+                    src="assets/img/servicesback0.png"
                   />
                 </figure>
                 <div className="discovery-text">
@@ -78,14 +84,15 @@ const Services = () => {
                       <path d="m16 41h2v2h-2z" />
                     </svg>
                   </i>
-                  <a href="#">
-                    <h4>Performance Marketing</h4>
-                  </a>
+                  <h4>Performance Marketing</h4>
                   <p>
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                    nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed
-                    pretium, ligula sollicitudin.Nullam mollis. Ut justo.
-                    Suspendisse potenti.
+                    At Batistack Development Corp, we excel in performance
+                    marketing, utilizing data-driven strategies to boost your
+                    business's visibility and drive sustainable growth. Our
+                    expertise ensures targeted engagement and measurable
+                    results. Experience the power of performance marketing with
+                    tailored solutions that align with your unique business
+                    objectives and deliver exceptional outcomes.
                   </p>
                 </div>
               </div>
@@ -125,18 +132,19 @@ const Services = () => {
                   <img
                     className="w-100"
                     alt="discovery"
-                    src="assets/img/discovery-1.jpg"
+                    src="assets/img/servicesback9.png"
                   />
                 </figure>
                 <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Creative Concepts &amp; Ideas</h4>
-                  </a>
+                  <h4>Creative Concepts &amp; Ideas</h4>
                   <p>
-                    In nisi neque, aliquet vel, dapibus id, mattisvel, nisi. Sed
-                    pretium, ligula sollicitudin laoreet viverra, tortor libero
-                    sodales leo, eget blandit nunc tortor eu nibh. Nullam
-                    mollis. Ut justo. Suspendisse potenti.
+                    At Batistack Development Corp, we bring innovative concepts
+                    and creative ideas to life, ensuring your projects stand out
+                    in the competitive market. Our team excels in crafting
+                    solutions that combine functionality with aesthetic appeal,
+                    delivering results that resonate with your target audience.
+                    Trust us to transform your vision into reality with
+                    precision and creativity.
                   </p>
                 </div>
               </div>
@@ -147,17 +155,18 @@ const Services = () => {
                   <img
                     className="w-100"
                     alt="discovery"
-                    src="assets/img/discovery-2.jpg"
+                    src="assets/img/serviceback.png"
                   />
                 </figure>
                 <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Branding</h4>
-                  </a>
+                  <h4>Branding</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                    nisi neque, aliquet vel, dapibus id, mattis vel, nisi.
+                    At Batistack Development Corp, we specialize in creating
+                    compelling brand identities that capture the essence of your
+                    business. Our strategic approach to branding ensures
+                    cohesive and impactful communication across all channels.
+                    With our expertise, your brand will resonate with your
+                    target audience, driving recognition and loyalty.
                   </p>
                 </div>
               </div>
@@ -168,17 +177,19 @@ const Services = () => {
                   <img
                     className="w-100"
                     alt="discovery"
-                    src="assets/img/discovery-3.jpg"
+                    src="assets/img/servicebacke.png"
                   />
                 </figure>
                 <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Ecommerce</h4>
-                  </a>
+                  <h4>Ecommerce</h4>
                   <p>
-                    Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                    libero sodales leo, eget blandit nunc tortor eunibh. Nullam
-                    mollis. Ut justo.
+                    Batistack Development Corp delivers comprehensive ecommerce
+                    solutions designed to enhance your online presence and drive
+                    sales. Our expert team integrates cutting-edge technology
+                    with user-centric design to create seamless and engaging
+                    shopping experiences. Trust us to elevate your ecommerce
+                    platform, ensuring robust performance and increased customer
+                    satisfaction.
                   </p>
                 </div>
               </div>
@@ -189,18 +200,19 @@ const Services = () => {
                   <img
                     className="w-100"
                     alt="discovery"
-                    src="assets/img/discovery-4.jpg"
+                    src="assets/img/1.png"
                   />
                 </figure>
                 <div className="discovery-text two">
-                  <a href="#">
-                    <h4>UX &amp; UI Design &amp; Analysis</h4>
-                  </a>
+                  <h4>UX &amp; UI Design &amp; Analysis</h4>
                   <p>
-                    Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
-                    vel, dapibus id, mattis velnisi. Sed pretium, ligula
-                    sollicitudin laoreet viverra, tortor libero sodales tortor
-                    eu nibh.{" "}
+                    Batistack Development Corp excels in UX and UI design and
+                    analysis, creating intuitive and engaging user experiences.
+                    Our meticulous approach combines aesthetic design with
+                    functionality, ensuring your digital products are not only
+                    visually appealing but also user-friendly. Let us help you
+                    enhance usability and satisfaction, driving user engagement
+                    and retention.
                   </p>
                 </div>
               </div>
