@@ -25,7 +25,7 @@ const BlogGrid = () => {
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>May 23 , 2023</span>
+                    <span>May 23, 2023</span>
                   </a>
 
                   <h4>Innovative Strategies for Digital Success in 2024</h4>

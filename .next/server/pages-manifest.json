@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/portfolio-single-v2": "pages/portfolio-single-v2.js",
-  "/blog-grid": "pages/blog-grid.js"
+  "/portfolio-grid": "pages/portfolio-grid.js",
+  "/contacts": "pages/contacts.js",
+  "/about": "pages/about.js",
+  "/": "pages/index.js"
 }

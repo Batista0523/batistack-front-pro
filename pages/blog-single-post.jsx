@@ -5,48 +5,55 @@ const BlogSinglePost = () => {
       <section>
         <div className="container">
           <div className="title-blog">
-            <h2>Pellentesque odionisi pharetra ultricies in diam.</h2>
-            <a href="#">Blog Single Post</a>
+            <h2>Enhancing Connectivity with Advanced Server Solutions</h2>
           </div>
           <div className="row">
             <div className="col-xl-8">
               <div className="blog-item">
-                <img alt="img" src="assets/img/blog-1.jpg" />
+                <img alt="img" src="assets/img/blogSingle.png" />
                 <h6>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos hymenaeos. Donec mi odio, faucibusat,
-                  scelerisque quis, convallis inisi. Curabitur ullamcorper
-                  ultricies nisi.
+                  Leveraging Cutting-Edge Server Technologies for Enhanced
+                  Connectivity
                 </h6>
                 <p className="p-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis. <br />
-                  <br />
-                  Maecenas tempus, tellus eget condimentum rhoncus, sem quam
-                  semper libero, sit amet adipiscing sem neque sed ipsum. Class
-                  aptent taciti sociosqu ad litora torquent per conubia nostra,
-                  per inceptos hymenaeos. Donec mi odio, faucibus at,
-                  scelerisque quis, convallis in, nisi. Curabitur ullamcorper
-                  ultricies nisi. Nam eget dui.
+                  In today's fast-paced digital landscape, robust server
+                  technologies are crucial for maintaining seamless connectivity
+                  and business operations. At Batistack, we specialize in
+                  deploying state-of-the-art server solutions tailored to meet
+                  your unique business needs.
                   <br />
                   <br />
-                  Aenean viverra rhoncus pede. Phasellus volutpat, metus eget
-                  egestas mollis, lacus lacus blandit dui, id egestas quam
-                  mauris ut lacus. Aenean leo ligula, porttitor eu, consequat
-                  vitae, eleifend ac, enim. Suspendisse potenti. In turpis.
-                  Praesent congue erat at massa. Aenean massa. Sed cursus turpis
-                  vitae tortor. Cras non dolor. Suspendisse enim turpis, dictum
-                  sed iaculis condimentum nec nisi.
+                  Our expertise lies in creating scalable, secure, and efficient
+                  server architectures that ensure maximum uptime and
+                  performance. From integrating advanced cloud services to
+                  implementing redundant systems, we cover all aspects of server
+                  management to keep your business running smoothly.
+                  <br />
+                  <br />
+                  With a deep understanding of the latest industry trends, our
+                  team of seasoned professionals is dedicated to delivering
+                  solutions that not only meet current demands but also
+                  future-proof your IT infrastructure. We believe in proactive
+                  management and continuous optimization to enhance your digital
+                  presence.
+                  <br />
+                  <br />
+                  At Batistack, we are committed to excellence in server
+                  technology and connectivity. Our comprehensive approach
+                  includes regular security audits, performance optimization,
+                  and tailored support services to ensure your business stays
+                  ahead in the digital era.
                 </p>
+
                 <div className="quote-bg">
                   <img alt="quote" src="assets/img/quote.png" />
                   <h6>
-                    “ Phasellus volutpat, metus eget egestas mollis, lacus lacus
-                    blandit dui, id egestas quam mauris ut lacus. Aenean leo
-                    ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                    Suspendisse potenti. In turpis. ”
+                    “Our advanced server solutions are designed to provide
+                    robust connectivity and seamless performance, ensuring your
+                    business operates efficiently and securely. With a focus on
+                    scalability and reliability, we tailor our services to meet
+                    your unique needs and future-proof your digital
+                    infrastructure.”
                   </h6>
                 </div>
               </div>
@@ -55,34 +62,40 @@ const BlogSinglePost = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/blog-2.jpg"
+                    src="assets/img/blogSinglep.png"
                   />
                 </div>
                 <div className="col-lg-7 pl-60">
                   <h6 className="pt-lg-0 pt-5 pb-4">
-                    Donec modio, faucibusat, scelerisque quis, convallis inisi.
-                    Curabitur ullamcorper ultricies nisi.
+                    Delivering tailored, high-performance server solutions to
+                    enhance your business connectivity. Experience unparalleled
+                    reliability and support with our expert team.
                   </h6>
                   <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis. Maecenas
-                    tempus, tellus eget condimentum rhoncus, sem quam semper
-                    libero, sit amet adipiscing sem neque sed ipsum. <br />
+                    Discover the power of seamless connectivity with our
+                    advanced server solutions. Designed to enhance performance
+                    and reliability, our services ensure your business
+                    operations run smoothly and efficiently. Experience the
+                    benefits of scalable and secure infrastructure tailored to
+                    your specific needs.
                     <br />
-                    Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos hymenaeos. Donec mi odio, faucibus at,
-                    scelerisque quis, convallis in, nisi. Curabitur ullamcorper
-                    ultricies nisi.
+                    <br />
+                    At Batistack, we leverage the latest technologies to provide
+                    robust and innovative solutions. Our team of experts is
+                    dedicated to delivering exceptional support and
+                    optimization, ensuring your digital presence remains strong
+                    and competitive.
                   </p>
                 </div>
               </div>
               <p className="p-30">
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis. Maecenas tempus, tellus
-                eget condimentum rhoncus, sem quam semper libero, sit amet
-                adipiscing sem neque sed ipsum. Class aptent taciti sociosqu ad
-                litora torquent per conubia nostra, per inceptos hymenaeos.
+                Trust Batistack for all your server and connectivity needs. With
+                a commitment to excellence and a focus on future-proofing your
+                IT infrastructure, we are your partners in achieving business
+                success. Join us and experience the difference of tailored,
+                high-performance solutions.
               </p>
+
               <div className="next-previous-page two">
                 <div className="container">
                   <div className="next-previous">
@@ -195,16 +208,15 @@ const BlogSinglePost = () => {
                 <img
                   alt="img"
                   className="w-100"
-                  src="assets/img/latest-blog-1.jpg"
+                  src="assets/img/blog-pic4.png"
                 />
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>July 10, 2024</span>
                 </a>
-                <a href="#">
-                  <h4>Class aptent taciti sociosqu ad litora torquent per.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Securing Your Network: Best Practices for 2024</h4>
+                <span>by Lisa Johnson | Cybersecurity Specialist</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -212,16 +224,15 @@ const BlogSinglePost = () => {
                 <img
                   alt="img"
                   className="w-100"
-                  src="assets/img/latest-blog-2.jpg"
+                  src="assets/img/blog-pic.png"
                 />
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>May 23 , 2023</span>
                 </a>
-                <a href="#">
-                  <h4>Pellentesque odionisi euismod in,pharetra ultricies.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Innovative Strategies for Digital Success in 2024</h4>
+                <span>by Jane Luna | Digital Strategy Expert</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -229,16 +240,17 @@ const BlogSinglePost = () => {
                 <img
                   alt="img"
                   className="w-100"
-                  src="assets/img/latest-blog-3.jpg"
+                  src="assets/img/blog-pic1.png"
                 />
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>June 25, 2020</span>
                 </a>
-                <a href="#">
-                  <h4>Nam nulla quam, gravida non.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>
+                  Enhancing Business Connectivity with Advanced Server Solutions
+                </h4>
+                <span>by Alex Martinez | Lead Server Architect</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -246,16 +258,14 @@ const BlogSinglePost = () => {
                 <img
                   alt="img"
                   className="w-100"
-                  src="assets/img/latest-blog-4.jpg"
+                  src="assets/img/blog-pic3.png"
                 />
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>December 10, 2023</span>
                 </a>
-                <a href="#">
-                  <h4>Donec nec justo eget felis facilisis fermentum.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+                <h4>Streamlining Operations with Cloud Integration</h4>
+                <span>by Michael Smith | Cloud Solutions Expert</span>
               </div>
             </div>
           </div>
