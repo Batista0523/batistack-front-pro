@@ -1,10 +1,11 @@
 import Layout from "@/src/layout/Layout";
 import { useState } from "react";
-const Pricing = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleExpansion = () => {
-    setIsExpanded(!isExpanded);
+const Pricing = () => {
+  const [expandedId, setExpandedId] = useState(null);
+
+  const toggleExpansion = (id) => {
+    setExpandedId(expandedId === id ? null : id);
   };
 
   return (
@@ -40,7 +41,7 @@ const Pricing = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="Pricing-style">
                 <div className="standard">
-                  <h5>Stater Package</h5>
+                  <h5>Starter Package</h5>
                   <span>
                     <sup>$</sup>499<sup>.99</sup>
                   </span>
@@ -54,7 +55,7 @@ const Pricing = () => {
                   Technologies: <p>HTML/CSS</p>
                 </h4>
                 <h4>
-                  Monthly Maintance: <p>$19.99</p>
+                  Monthly Maintenance: <p>$19.99</p>
                 </h4>
                 <ul>
                   <h4>Features:</h4>
@@ -91,7 +92,7 @@ const Pricing = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="Pricing-style">
                 <div className="standard">
-                  <h5>Profesional</h5>
+                  <h5>Professional</h5>
                   <span>
                     <sup>$</sup>799<sup>.99</sup>
                   </span>
@@ -104,10 +105,10 @@ const Pricing = () => {
                 </p>
                 <br />
                 <h4>
-                  Technologies: <p>HTML/CSS , JavaScript , React</p>
+                  Technologies: <p>HTML/CSS, JavaScript, React</p>
                 </h4>
                 <h4>
-                  Monthly Maintance: <p>$49.99</p>
+                  Monthly Maintenance: <p>$49.99</p>
                 </h4>
                 <p>
                   <strong>Starter Package Plus:</strong>
@@ -157,7 +158,7 @@ const Pricing = () => {
                 </h4>
                 <br />
                 <h4>
-                  Monthly Maintance: <p>Based on selected server tier</p>
+                  Monthly Maintenance: <p>Based on selected server tier</p>
                 </h4>
                 <li>
                   <i className="fa-solid fa-check" />
@@ -179,7 +180,7 @@ const Pricing = () => {
                 </li>
                 <br />
                 <p>
-                  <strong>Profesional Package Plus:</strong>
+                  <strong>Professional Package Plus:</strong>
                 </p>
                 <ul>
                   <li>
@@ -238,144 +239,148 @@ const Pricing = () => {
           </div>
         </div>
       </section>
-      <section class="faq-section gap">
-        <div class="container">
-          <div class="section-heading">
+      <section className="faq-section gap">
+        <div className="container">
+          <div className="section-heading">
             <h6>Have a Question?</h6>
             <h2>Frequently Asked Questions</h2>
             <img alt="heading line" src="assets/img/headingline.png" />
           </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="faq-category">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="faq-category">
                 <h4>Popular Questions</h4>
-                <div class="accordion" id="popular-questions">
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                <div className="accordion" id="popular-questions">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn" onClick={() => toggleExpansion("services")}>
                       What services do you offer?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <div class="accordion-content">
-                      <p>
-                        We offer full-stack development services including
-                        front-end technologies like HTML, CSS, JavaScript, and
-                        React, as well as back-end technologies such as Node.js,
-                        Express, and databases like PostgreSQL.
-                      </p>
-                    </div>
+                      {expandedId === "services" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "services" && (
+                      <div className="accordion-content">
+                        <p>
+                          We offer full-stack development services including
+                          front-end technologies like HTML, CSS, JavaScript, and
+                          React, as well as back-end technologies such as
+                          Node.js, Express, and databases like PostgreSQL.
+                        </p>
+                      </div>
+                    )}
                   </div>
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("maintenance")}>
                       Do you provide ongoing maintenance?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <div class="accordion-content">
-                      <p>
-                        Yes, we offer monthly maintenance plans to ensure your
-                        applications remain secure, up-to-date, and optimized
-                        for performance.
-                      </p>
-                    </div>
+                      {expandedId === "maintenance" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "maintenance" && (
+                      <div className="accordion-content">
+                        <p>
+                          Yes, we offer monthly maintenance plans to ensure your
+                          applications remain secure, up-to-date, and optimized
+                          for performance.
+                        </p>
+                      </div>
+                    )}
                   </div>
 
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"   onClick={() => toggleExpansion("custom-features")}>
                       Can I request custom features for my project?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <div class="accordion-content">
-                      <p>
-                        Absolutely! We provide customization services tailored
-                        to your specific needs, ensuring your project meets all
-                        requirements and expectations.
-                      </p>
-                    </div>
+                      {expandedId === "custom-features" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "custom-features" && (
+                      <div className="accordion-content">
+                        <p>
+                          Absolutely! We provide customization services tailored
+                          to your specific needs, ensuring your project meets
+                          all requirements and expectations.
+                        </p>
+                      </div>
+                    )}
                   </div>
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("get-started")}>
                       How do I get started with your services?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <div class="accordion-content">
-                      <p>
-                        Getting started is easy! Simply contact us through our
-                        website or by phone, and our team will guide you through
-                        the process from consultation to project kickoff.
-                      </p>
-                    </div>
+                      {expandedId === "get-started" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "get-started" && (
+                      <div className="accordion-content">
+                        <p>
+                          Getting started is easy! Simply contact us through our
+                          website or by phone, and our team will guide you
+                          through the process from consultation to project
+                          kickoff.
+                        </p>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="faq-category">
+            <div className="col-lg-6">
+              <div className="faq-category">
                 <h4>Security and Privacy</h4>
-                <div class="accordion" id="security-privacy">
-                  <div class="accordion-item">
-                    <h6 className="accordion-heading">
+                <div className="accordion" id="security-privacy">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("data-security")}>
                       How do you ensure data security?{" "}
-                      <span class="toggle-icon">+</span>
+                      {expandedId === "data-security" ? "➖" : "➕"}
                     </h6>
-                    <button
-                      className="toggle-button"
-                      onClick={toggleExpansion}
-                      aria-label={isExpanded ? "Collapse" : "Expand"}
-                    >
-                      {isExpanded ? "➖" : "➕"}
-                    </button>
-                    {isExpanded && (
-                      <div>
-                        {" "}
+                    {expandedId === "data-security" && (
+                      <div className="accordion-content">
                         <p>
                           We follow industry best practices for data security,
                           including encryption, regular security audits, and
                           access controls to protect your sensitive information.
                         </p>
-                        <div class="accordion-content"></div>
                       </div>
                     )}
                   </div>
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("data-backup")}>
                       Is my data backed up regularly?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <div class="accordion-content">
-                      <p>
-                        Yes, we perform regular backups of your data to ensure
-                        data integrity and availability in case of unexpected
-                        events.
-                      </p>
-                    </div>
+                      {expandedId === "data-backup" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "data-backup" && (
+                      <div className="accordion-content">
+                        <p>
+                          Yes, we perform regular backups of your data to ensure
+                          data integrity and availability in case of unexpected
+                          events.
+                        </p>
+                      </div>
+                    )}
                   </div>
 
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("privacy")}>
                       How can I be assured of my privacy?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <br />
-                    <div class="accordion-content">
-                      <p>
-                        Your privacy is our priority. We adhere to strict
-                        confidentiality agreements and privacy policies to
-                        safeguard your personal and business information.
-                      </p>
-                    </div>
+                      {expandedId === "privacy" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "privacy" && (
+                      <div className="accordion-content">
+                        <p>
+                          Your privacy is our priority. We adhere to strict
+                          confidentiality agreements and privacy policies to
+                          safeguard your personal and business information.
+                        </p>
+                      </div>
+                    )}
                   </div>
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-heading">
+                  <div className="accordion-item">
+                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("server-security")}>
                       Are your servers located in secure data centers?{" "}
-                      <span class="toggle-icon">+</span>
-                    </a>
-                    <br />
-                    <div class="accordion-content">
-                      <p>
-                        Yes, our servers are hosted in secure data centers with
-                        robust physical and digital security measures to protect
-                        against unauthorized access and breaches.
-                      </p>
-                    </div>
+                      {expandedId === "server-security" ? "➖" : "➕"}
+                    </h6>
+                    {expandedId === "server-security" && (
+                      <div className="accordion-content">
+                        <p>
+                          Yes, our servers are hosted in secure data centers
+                          with robust physical and digital security measures to
+                          protect against unauthorized access and breaches.
+                        </p>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -386,4 +391,5 @@ const Pricing = () => {
     </Layout>
   );
 };
+
 export default Pricing;
