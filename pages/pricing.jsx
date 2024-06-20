@@ -252,7 +252,10 @@ const Pricing = () => {
                 <h4>Popular Questions</h4>
                 <div className="accordion" id="popular-questions">
                   <div className="accordion-item">
-                    <h6 className="toggle-btn" onClick={() => toggleExpansion("services")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("services")}
+                    >
                       What services do you offer?{" "}
                       {expandedId === "services" ? "➖" : "➕"}
                     </h6>
@@ -268,7 +271,10 @@ const Pricing = () => {
                     )}
                   </div>
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("maintenance")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("maintenance")}
+                    >
                       Do you provide ongoing maintenance?{" "}
                       {expandedId === "maintenance" ? "➖" : "➕"}
                     </h6>
@@ -284,7 +290,10 @@ const Pricing = () => {
                   </div>
 
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"   onClick={() => toggleExpansion("custom-features")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("custom-features")}
+                    >
                       Can I request custom features for my project?{" "}
                       {expandedId === "custom-features" ? "➖" : "➕"}
                     </h6>
@@ -299,7 +308,10 @@ const Pricing = () => {
                     )}
                   </div>
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("get-started")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("get-started")}
+                    >
                       How do I get started with your services?{" "}
                       {expandedId === "get-started" ? "➖" : "➕"}
                     </h6>
@@ -322,7 +334,10 @@ const Pricing = () => {
                 <h4>Security and Privacy</h4>
                 <div className="accordion" id="security-privacy">
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("data-security")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("data-security")}
+                    >
                       How do you ensure data security?{" "}
                       {expandedId === "data-security" ? "➖" : "➕"}
                     </h6>
@@ -337,7 +352,10 @@ const Pricing = () => {
                     )}
                   </div>
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("data-backup")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("data-backup")}
+                    >
                       Is my data backed up regularly?{" "}
                       {expandedId === "data-backup" ? "➖" : "➕"}
                     </h6>
@@ -353,7 +371,10 @@ const Pricing = () => {
                   </div>
 
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("privacy")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("privacy")}
+                    >
                       How can I be assured of my privacy?{" "}
                       {expandedId === "privacy" ? "➖" : "➕"}
                     </h6>
@@ -368,7 +389,10 @@ const Pricing = () => {
                     )}
                   </div>
                   <div className="accordion-item">
-                    <h6 className="toggle-btn"  onClick={() => toggleExpansion("server-security")}>
+                    <h6
+                      className="toggle-btn"
+                      onClick={() => toggleExpansion("server-security")}
+                    >
                       Are your servers located in secure data centers?{" "}
                       {expandedId === "server-security" ? "➖" : "➕"}
                     </h6>

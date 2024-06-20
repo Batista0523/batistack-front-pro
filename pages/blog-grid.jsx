@@ -11,7 +11,7 @@ const BlogGrid = () => {
                 <br />
                 From Our Blog
               </h2>
-              <a href="#">Blog Grid</a>
+              <h5 className="blog-sub">Blog Grid</h5>
             </div>
             <div className="row">
               <div className="col-xl-4 col-md-6">
@@ -20,19 +20,16 @@ const BlogGrid = () => {
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/latest-blog-1.jpg"
+                      src="assets/img/blog-pic.png"
                     />
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
+                    <span>May 23 , 2023</span>
                   </a>
-                  <a href="#">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
+
+                  <h4>Innovative Strategies for Digital Success in 2024</h4>
+                  <span>by Jane Luna | Digital Strategy Expert</span>
                 </div>
               </div>
               <div className="col-xl-4 col-md-6">
@@ -41,19 +38,19 @@ const BlogGrid = () => {
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/latest-blog-2.jpg"
+                      src="assets/img/blog-pic1.png"
                     />
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
+                    <span>June 25, 2020</span>
                   </a>
-                  <a href="#">
-                    <h4>
-                      Pellentesque odionisi euismod in,pharetra ultricies.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
+
+                  <h4>
+                    Enhancing Business Connectivity with Advanced Server
+                    Solutions
+                  </h4>
+                  <span>by Alex Martinez | Lead Server Architect</span>
                 </div>
               </div>
               <div className="col-xl-4 col-md-6">
@@ -62,17 +59,15 @@ const BlogGrid = () => {
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/latest-blog-3.jpg"
+                      src="assets/img/blog-pic3.png"
                     />
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
+                    <span>December 10, 2023</span>
                   </a>
-                  <a href="#">
-                    <h4>Nam nulla quam, gravida non.</h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
+                  <h4>Streamlining Operations with Cloud Integration</h4>
+                  <span>by Michael Smith | Cloud Solutions Expert</span>
                 </div>
               </div>
               <div className="col-xl-4 col-md-6">
@@ -81,17 +76,15 @@ const BlogGrid = () => {
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/latest-blog-4.jpg"
+                      src="assets/img/blog-pic4.png"
                     />
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
+                    <span>July 10, 2024</span>
                   </a>
-                  <a href="#">
-                    <h4>Donec nec justo eget felis facilisis fermentum.</h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
+                  <h4>Securing Your Network: Best Practices for 2024</h4>
+                  <span>by Lisa Johnson | Cybersecurity Specialist</span>
                 </div>
               </div>
               <div className="col-xl-4 col-md-6">
@@ -100,20 +93,15 @@ const BlogGrid = () => {
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/latest-blog-5.jpg"
+                      src="assets/img/blog-pic5.png"
                     />
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
+                    <span>September 15, 2023</span>
                   </a>
-                  <a href="#">
-                    <h4>
-                      Nam duimi tincidunt quis accumsan porttitor, facilisis
-                      luctus metus.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
+                  <h4>Maximizing Uptime with Redundant Server Architecture</h4>
+                  <span>by David Chen | Systems Engineer</span>
                 </div>
               </div>
               <div className="col-xl-4 col-md-6">
@@ -122,17 +110,15 @@ const BlogGrid = () => {
                     <img
                       alt="img"
                       className="w-100"
-                      src="assets/img/latest-blog-6.jpg"
+                      src="assets/img/blog-pic6.png"
                     />
                   </figure>
                   <a href="#">
                     <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
+                    <span>August 10, 2022</span>
                   </a>
-                  <a href="#">
-                    <h4>Fusce pellentesque suscipit nibh.</h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
+                  <h4>Future-Proofing Your IT Infrastructure</h4>
+                  <span>by Emily Davis | IT Infrastructure Manager</span>
                 </div>
               </div>
             </div>
@@ -158,11 +144,11 @@ const BlogGrid = () => {
     405.606,308.713 476.213,238.106 "
                     />
                   </svg>
-                  prev page
+                  <a href="/portfolio-single-v2"> prev page</a>
                 </a>
               </div>
               <div className="next">
-                <a href="#">
+                <a href="/blog-single-post">
                   next page
                   <svg
                     version="1.1"

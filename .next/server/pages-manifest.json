@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/pricing": "pages/pricing.js"
+  "/portfolio-single-v2": "pages/portfolio-single-v2.js",
+  "/blog-grid": "pages/blog-grid.js"
 }

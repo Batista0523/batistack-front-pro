@@ -194,14 +194,14 @@ const Contact = () => {
                         <img
                           alt="img"
                           className="w-100"
-                          src="assets/img/view-map-1.jpg"
+                          src="assets/img/3.png"
                         />
                       </figure>
                       <div className="view-map-data">
                         <i className="fa-solid fa-user" />
                         <h5>New York</h5>
-                        <p>2010 Seagirt Blvd</p>
-                        <a href="#">view map</a>
+                        <p>2010 Seagirt Blvd Far Rockaway NY </p>
+                      
                       </div>
                     </div>
                   </SwiperSlide>
