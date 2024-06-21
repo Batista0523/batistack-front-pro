@@ -49,7 +49,7 @@ const Contact = () => {
     <Layout noHeaderBg pageName={"Contact"}>
       <section
         className="splash-area-section"
-        style={{ backgroundImage: "url(assets/img/background.jpg)" }}
+        style={{ backgroundImage: "url(assets/img/headBack1.png)" }}
       >
         <div className="container">
           <div className="splash-area">
@@ -201,7 +201,6 @@ const Contact = () => {
                         <i className="fa-solid fa-user" />
                         <h5>New York</h5>
                         <p>2010 Seagirt Blvd Far Rockaway NY </p>
-                      
                       </div>
                     </div>
                   </SwiperSlide>
