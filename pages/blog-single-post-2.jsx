@@ -1,6 +1,10 @@
 import Layout from "@/src/layout/Layout";
 import { blogswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+
+
+
 const BlogSinglePost2 = () => {
   return (
     <Layout headerExtraClass={"three"} pageName={"Blog Single Post"}>
@@ -18,7 +22,7 @@ const BlogSinglePost2 = () => {
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/blog-3.jpg"
+                      src="assets/img/blogSinglepr9.png"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -27,17 +31,20 @@ const BlogSinglePost2 = () => {
                         <i className="fa-regular fa-clock" />
                         <span>August 10, 2023</span>
                       </a>
-                      <a href="#">
-                        <h2>Donec odio. Quisque volutpat mattis eros.</h2>
-                      </a>
+
+                      <h2>
+                        Enhancing Digital Strategies with Cutting-Edge
+                        Technologies
+                      </h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.{" "}
+                        In today's fast-paced digital world, staying ahead
+                        requires innovative solutions and strategic thinking.
+                        Our advanced methodologies ensure your business thrives,
+                        with seamless integration and optimized performance.
+                        Experience the difference with our expertly crafted
+                        digital strategies.
                       </p>
-                      <span>by Jane Luna | Digital Strategy</span>
+                      <span>by Jane Luna | Digital Strategy Expert</span>
                     </div>
                   </div>
                 </div>
@@ -50,26 +57,28 @@ const BlogSinglePost2 = () => {
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/blog-4.jpg"
+                      src="assets/img/blogSinglepr9p.png"
                     />
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
                       <a href="#">
                         <i className="fa-regular fa-clock" />
-                        <span>August 10, 2023</span>
+                        <span>July 10, 2024</span>
                       </a>
-                      <a href="#">
-                        <h2>Donec odio. Quisque volutpat mattis eros.</h2>
-                      </a>
+
+                      <h2>
+                        Transforming Business Operations with Innovative
+                        Solutions
+                      </h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.{" "}
+                        Achieve unparalleled efficiency and growth with our
+                        state-of-the-art solutions designed to streamline your
+                        business operations. Our strategies are tailored to meet
+                        the unique needs of your organization, ensuring optimal
+                        performance and success in the digital landscape.
                       </p>
-                      <span>by Jane Luna | Digital Strategy</span>
+                      <span>by Josepht trhill | Digital Strategy Expert</span>
                     </div>
                   </div>
                 </div>
@@ -82,7 +91,7 @@ const BlogSinglePost2 = () => {
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/blog-4.jpg"
+                      src="assets/img/blogSinglepr9pl.png"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -91,17 +100,20 @@ const BlogSinglePost2 = () => {
                         <i className="fa-regular fa-clock" />
                         <span>August 10, 2023</span>
                       </a>
-                      <a href="#">
-                        <h2>Donec odio. Quisque volutpat mattis eros.</h2>
-                      </a>
+
+                      <h2>
+                        Revolutionizing Digital Experiences with Strategic
+                        Innovation
+                      </h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.{" "}
+                        Stay ahead in the digital era with our cutting-edge
+                        solutions designed to enhance user experiences and drive
+                        business growth. Our approach integrates the latest
+                        technologies and strategic insights to deliver
+                        exceptional results, ensuring your digital presence is
+                        both impactful and effective.
                       </p>
-                      <span>by Jane Luna | Digital Strategy</span>
+                      <span>by Alex Carter | Digital Strategy Expert</span>
                     </div>
                   </div>
                 </div>
@@ -153,17 +165,15 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-1.jpg"
+                    src="assets/img/blogSinglepr.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>January 10, 2019</span>
                 </a>
-                <a href="#">
-                  <h4>Class aptent taciti sociosqu ad litora torquent per.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+                <h4>Innovative Strategies for Modern Businesses</h4>
+                <span>by Emily Thompson | Digital Strategy Expert</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -172,17 +182,16 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-2.jpg"
+                    src="assets/img/blogSinglepr2.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>August 15, 2020</span>
                 </a>
-                <a href="#">
-                  <h4>Pellentesque odionisi euismod in,pharetra ultricies.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Enhancing Connectivity with Advanced Server Integration</h4>
+                <span>by Michael Rivera | Digital Strategy Expert</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -191,17 +200,16 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-3.jpg"
+                    src="assets/img/blogSinglepr3.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>October 20, 2022</span>
                 </a>
-                <a href="#">
-                  <h4>Nam nulla quam, gravida non.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Seamless Integration for Superior Performance</h4>
+                <span>by Sarah Mitchell | Technology Consultant</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -210,17 +218,16 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-4.jpg"
+                    src="assets/img/blogSinglepr4.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
                   <span>August 10, 2023</span>
                 </a>
-                <a href="#">
-                  <h4>Donec nec justo eget felis facilisis fermentum.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Optimize Your Workflow with Advanced Automation</h4>
+                <span>by David Parker | Innovation Specialist</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -229,17 +236,16 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-7.jpg"
+                    src="assets/img/blogSinglepr5.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
+                  <span>July 5, 2023</span>
                 </a>
-                <a href="#">
-                  <h4>Morbi in sem quis dui placerat ornare.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Elevate Your Brand with Strategic Design</h4>
+                <span>by Olivia Harris | Creative Director</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -248,20 +254,16 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-8.jpg"
+                    src="assets/img/blogSinglepr6.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
                   <span>August 10, 2023</span>
                 </a>
-                <a href="#">
-                  <h4>
-                    Pellentesque odionisi euismod in, pharetra ultricies in
-                    diam.
-                  </h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>Boosting Efficiency with Cutting-Edge Technology</h4>
+                <span>by Mark Robinson | Digital Strategy Specialist</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -270,17 +272,18 @@ const BlogSinglePost2 = () => {
                   <img
                     alt="img"
                     className="w-100"
-                    src="assets/img/latest-blog-9.jpg"
+                    src="assets/img/blogSinglepr7.png"
                   />
                 </figure>
                 <a href="#">
                   <i className="fa-regular fa-clock" />
                   <span>August 10, 2023</span>
                 </a>
-                <a href="#">
-                  <h4>Quisque a lectus.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
+
+                <h4>
+                  Empowering Businesses through Strategic Digital Transformation
+                </h4>
+                <span>by Emma Davis | Digital Strategy Consultant</span>
               </div>
             </div>
           </div>
