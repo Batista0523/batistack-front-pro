@@ -2,7 +2,7 @@
 
     [Master Stylesheet]
 
-    Project:    Terio - Creative Agency HTML Template
+    Project:    Batistack Development Corp
     
     Version:    1.0
 
@@ -81,7 +81,7 @@ body {
 p {
     font-size: 16px;
     line-height: 28px;
-    color: #666;
+    color: #747070;
     margin: 0;
     font-weight: 400;
 }
@@ -132,20 +132,20 @@ h5 {
     color: #222;
 }
 
-.toggle-btn{
+.toggle-btn {
     display: inline-block;
-    padding: 3px 5px; 
-    background-color: #0048ffd7; 
-    color: #ffffff; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
+    padding: 3px 5px;
+    background-color: #0048ffd7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.blog-sub{
+.blog-sub {
     color: #0049ff;
 }
 
@@ -165,6 +165,10 @@ img {
 
 .no-top {
     padding-top: 0;
+}
+
+.hero-section-one {
+    height: 50rem;
 }
 
 .no-bottom {

@@ -9,7 +9,6 @@ const Index = () => {
         className="hero-section-one"
         style={{
           backgroundImage: "url(assets/img/background-batistack.png)",
-          height: "20rem",
         }}
       >
         {/* <div className="container">
@@ -249,7 +248,10 @@ const Index = () => {
               <br />
               Completed<span>Projects</span>
             </h2>
-            <h5>Note: We prioritize client confidentiality and display only projects approved for public showcase.</h5>
+            <h5>
+              Note: We prioritize client confidentiality and display only
+              projects approved for public showcase.
+            </h5>
 
             <p>We Help You Build An Online Brand</p>
           </div>
@@ -260,7 +262,10 @@ const Index = () => {
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slide">
                 <div className="project-data">
-                  <a href="https://neon-dragon-3dc023.netlify.app/" target="_blank">
+                  <a
+                    href="https://neon-dragon-3dc023.netlify.app/"
+                    target="_blank"
+                  >
                     <img
                       alt="img"
                       className="w-100"
@@ -269,9 +274,19 @@ const Index = () => {
                   </a>
                   <div className="project-text">
                     <h5>CourtIQ</h5>
-                    <p>Are you an NBA 🏀⭐️🚀 fan who enjoys betting? This website is designed for you. Using advanced technology, CourtIQ helps users make informed decisions before placing their bets.</p>
+                    <p>
+                      Are you an NBA 🏀⭐️🚀 fan who enjoys betting? This
+                      website is designed for you. Using advanced technology,
+                      CourtIQ helps users make informed decisions before placing
+                      their bets.
+                    </p>
 
-                    <a href="https://neon-dragon-3dc023.netlify.app/" target="_blank">View Project</a>
+                    <a
+                      href="https://neon-dragon-3dc023.netlify.app/"
+                      target="_blank"
+                    >
+                      View Project
+                    </a>
                   </div>
                 </div>
               </SwiperSlide>
@@ -421,7 +436,7 @@ const Index = () => {
                 <div className="reaview">
                   <img alt="man" src="assets/img/faceback1.png" />
                   <p>
-                    "Batistack Developmentprovided outstanding service. Their
+                    "Batistack Development provided outstanding service. Their
                     professionalism and commitment to excellence made a
                     significant impact on our project."
                   </p>

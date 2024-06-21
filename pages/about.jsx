@@ -8,15 +8,15 @@ const About = () => {
       <div>
         <section
           className="splash-area-section"
-          style={{ backgroundImage: "url(assets/img/background.jpg)" }}
+          style={{ backgroundImage: "url(assets/img/headBack1.png" }}
         >
           <div className="container">
             <div className="splash-area">
               <h2>
                 We Love
                 <br />
-                What We Do
               <p>About Us</p>
+                What We Do
               </h2>
             </div>
           </div>

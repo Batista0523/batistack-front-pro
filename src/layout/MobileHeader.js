@@ -10,7 +10,6 @@ const MobileHeader = ({ toggle, close }) => {
       id="mobile-nav"
       style={{ display: "block" }}
     >
-     
       <ul>
         <li className={`menu-item-has-children ${activeSubMenu("home")}`}>
           <a href="JavaScript:void(0)" onClick={() => active("home")}>
@@ -19,10 +18,9 @@ const MobileHeader = ({ toggle, close }) => {
           <ul className="sub-menu">
             <li>
               <Link legacyBehavior href="/">
-                homepage 
+                homepage
               </Link>
             </li>
-       
           </ul>
         </li>
         <li className={`menu-item-has-children ${activeSubMenu("Pages")}`}>
@@ -50,14 +48,14 @@ const MobileHeader = ({ toggle, close }) => {
                 pricing
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link legacyBehavior href="404error">
                 404 error
               </Link>
-            </li>
+            </li> */}
           </ul>
         </li>
-        <li className={`menu-item-has-children ${activeSubMenu("Portfolio")}`}>
+        {/* <li className={`menu-item-has-children ${activeSubMenu("Portfolio")}`}>
           <a href="JavaScript:void(0)" onClick={() => active("Portfolio")}>
             Portfolio
           </a>
@@ -88,7 +86,7 @@ const MobileHeader = ({ toggle, close }) => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li className={`menu-item-has-children ${activeSubMenu("Blog")}`}>
           <a href="JavaScript:void(0)" onClick={() => active("Blog")}>
             Blog

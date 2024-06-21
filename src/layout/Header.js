@@ -42,10 +42,10 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 <ul className="sub-menu">
                   <li>
                     <Link legacyBehavior href="/">
-                      homepage 
+                      Batistack
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link legacyBehavior href="index-2">
                       homepage 2
                     </Link>
@@ -54,7 +54,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                     <Link legacyBehavior href="index-3">
                       homepage 3
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>

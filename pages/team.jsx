@@ -5,7 +5,7 @@ const Team = () => {
     <Layout noHeaderBg pageName={"Team"}>
       <section
         className="splash-area-section"
-        style={{ backgroundImage: "url(assets/img/background.jpg)" }}
+        style={{ backgroundImage: "url(assets/img/headBack1.png)" }}
       >
         <div className="container">
           <div className="splash-area">
