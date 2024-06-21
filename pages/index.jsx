@@ -159,7 +159,7 @@ const Index = () => {
                 <h5>Technologies We Use</h5>
                 <p>
                   Our expertise includes HTML/CSS JavaScript, React, Next.js,
-                  Node.js , Express, PostgreSQL, HTML, and CSS and much more. We
+                  Node.js , Express, PostgreSQL, and much more. We
                   combine these technologies to build robust, scalable, and
                   user-friendly applications tailored to your needs.
                 </p>
