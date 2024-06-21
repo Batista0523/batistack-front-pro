@@ -82,18 +82,18 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                       pricing
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link legacyBehavior href="404error">
                       404 error
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
-                <Link legacyBehavior href="portfolio-grid">
+                {/* <Link legacyBehavior href="portfolio-grid">
                   Portfolio
-                </Link>
-                <ul className="sub-menu">
+                </Link> */}
+                {/* <ul className="sub-menu">
                   <li>
                     <Link legacyBehavior href="portfolio-grid">
                       portfolio grid
@@ -119,7 +119,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                       portfolio single v2
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <Link legacyBehavior href="blog-grid">
